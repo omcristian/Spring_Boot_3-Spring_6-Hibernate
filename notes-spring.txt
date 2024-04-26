@@ -1,0 +1,92 @@
+https://perficient.udemy.com/course/spring-hibernate-tutorial/learn/lecture/36829930#overview
+
+
+Spring Boots aps include embedded server, so we can run as standalone:
+java -jar myapp.jar
+
+
+# Video 6
+http://start.spring.io
+
+localhost:8080
+
+
+
+# video 8
+boilerplate = repetitivo
+
+
+
+# video 14
+
+search.maven.org
+
+mvnw clean compile test
+or
+mvn clean compile test
+
+
+
+# video 15
+application.properties (add Spring Boot properties)
+	# configure server port
+	server.port=8585
+
+	# configure my propos
+	coach.name=Mickey Mouse
+	team.name=The Mouse Crew
+
+
+
+# video 24
+	spring security 
+		user: user
+		password:4383c884-6bde-4232-8e70-2b1e850a40ce
+
+
+
+# video 27
+run Spring Boots from CLI:
+
+cd C:\Users\cristian.ortiz\git_personal\Spring_Boot_3-Spring_6-Hibernate\dev-spring-boot\01-spring-boot-overview\05-command-line-demo
+mvnw package
+java -jar target\mycoolapp-0.0.1-SNAPSHOT.jar
+
+mvnw spring-boot:run
+
+
+
+# Video 66
+
+# Postgres
+hostname: dpg-coa844f79t8c73ee4b40-a.oregon-postgres.render.com
+External Database URL: postgres://springstudent:springstudent@dpg-coa844f79t8c73ee4b40-a.oregon-postgres.render.com/postgresql_db_ni1k
+Port: 5432
+DATABASE: student_tracker (admin db: postgresql_db_ni1k)
+PostgreSQL Version: 16
+admin user: postgres
+user: springstudent
+password: springstudent (old: uRFaymEZCUMVXszPTIWMAHszG3TzIyV0)
+PSQL Command: PGPASSWORD=springstudent psql -h dpg-coa844f79t8c73ee4b40-a.oregon-postgres.render.com -U springstudent postgresql_db_ni1k
+
+
+
+# applications.properties
+spring.datasource.url=jdbc:postgresql://dpg-coa844f79t8c73ee4b40-a.oregon-postgres.render.com:5432/student_tracker
+spring.datasource.username=springstudent
+spring.datasource.password=springstudent
+
+# Turn off the Spring Boot banner
+spring.main.banner-mode=off
+
+# Reduce logging leve. Set logging level to warn
+logging.level.root=warn
+
+
+# Change Postgres Auto increment
+ALTER SEQUENCE student_id_seq RESTART WITH 3000;
+
+
+# Database versioning
+# Schema migration tools
+Liquibase and Flyway
