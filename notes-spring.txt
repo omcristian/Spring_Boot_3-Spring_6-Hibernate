@@ -90,3 +90,12 @@ ALTER SEQUENCE student_id_seq RESTART WITH 3000;
 # Database versioning
 # Schema migration tools
 Liquibase and Flyway
+
+
+_________________________
+
+# API for testing and prototyping
+https://jsonplaceholder.typicode.com/
+
+
+
