@@ -58,7 +58,7 @@ mvnw spring-boot:run
 
 # Video 66
 
-# Postgres
+# Postgres (DATABASE: student_tracker)
 hostname: dpg-coa844f79t8c73ee4b40-a.oregon-postgres.render.com
 External Database URL: postgres://springstudent:springstudent@dpg-coa844f79t8c73ee4b40-a.oregon-postgres.render.com/postgresql_db_ni1k
 Port: 5432
@@ -96,6 +96,15 @@ _________________________
 
 # API for testing and prototyping
 https://jsonplaceholder.typicode.com/
+
+
+__________________________________
+
+CREATE DATABASE employee_directory;
+
+
+repite video 116 to implement into ingenesisweb
+
 
 
 
