@@ -58,21 +58,25 @@ mvnw spring-boot:run
 
 # Video 66
 
+# Render: postgresql_spring3_udemy
 # Postgres (DATABASE: student_tracker)
-hostname: dpg-coa844f79t8c73ee4b40-a.oregon-postgres.render.com
-External Database URL: postgres://springstudent:springstudent@dpg-coa844f79t8c73ee4b40-a.oregon-postgres.render.com/postgresql_db_ni1k
+hostname: dpg-cq621f4s1f4s73dr4j40-a.oregon-postgres.render.com
+External Database URL: postgresql://springstudent:springstudent@dpg-cq621f4s1f4s73dr4j40-a.oregon-postgres.render.com/postgresql_db_ni1k_1eio
+
 Port: 5432
 DATABASE: student_tracker (admin db: postgresql_db_ni1k)
 PostgreSQL Version: 16
 admin user: postgres
 user: springstudent
-password: springstudent (old: uRFaymEZCUMVXszPTIWMAHszG3TzIyV0)
-PSQL Command: PGPASSWORD=springstudent psql -h dpg-coa844f79t8c73ee4b40-a.oregon-postgres.render.com -U springstudent postgresql_db_ni1k
+password: springstudent (old: NfFU7SHxd4hxsW5oBxlr3ACvjtQPFTTa)
+PSQL Command: PGPASSWORD=springstudent psql -h dpg-cq621f4s1f4s73dr4j40-a.oregon-postgres.render.com -U springstudent postgresql_db_ni1k_1eio
+
+-- ALTER USER springstudent WITH PASSWORD 'springstudent';
 
 
 
 # applications.properties
-spring.datasource.url=jdbc:postgresql://dpg-coa844f79t8c73ee4b40-a.oregon-postgres.render.com:5432/student_tracker
+spring.datasource.url=jdbc:postgresql://dpg-cq621f4s1f4s73dr4j40-a.oregon-postgres.render.com:5432/student_tracker
 spring.datasource.username=springstudent
 spring.datasource.password=springstudent
 
@@ -102,9 +106,9 @@ __________________________________
 
 CREATE DATABASE employee_directory;
 
-
-repite video 116 to implement into ingenesisweb
-
-
+# applications.properties
+spring.datasource.url=jdbc:postgresql://dpg-cq621f4s1f4s73dr4j40-a.oregon-postgres.render.com:5432/employee_directory
+spring.datasource.username=springstudent
+spring.datasource.password=springstudent
 
 
