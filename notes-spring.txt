@@ -112,3 +112,30 @@ spring.datasource.username=springstudent
 spring.datasource.password=springstudent
 
 
+__________________________________
+
+
+Apache Maven 3.9.6 (bc0240f3c744dd6b6ec2920b3cd08dcc295161ae)
+Maven home: C:\Users\cristian.ortiz\.m2\wrapper\dists\apache-maven-3.9.6-bin\3311e1d4\apache-maven-3.9.6
+Java version: 21.0.1, vendor: Oracle Corporation, runtime: C:\Program Files\OpenJDK\jdk-21.0.1
+
+
+# Docker
+openjdk:21-jdk-slim
+
+
+# https://community.render.com/t/running-java-spring-boot-in-docker-container-on-web-services/3232
+-------------------
+error: failed to solve: lstat /home/user/.local/tmp/buildkit-mount4179102238/target: no such file or directory
+--------------------
+error: failed to solve: lstat /home/user/.local/tmp/buildkit-mount1882155463/target: no such file or directory
+
+--
+
+# Deployed URL, API
+https://ingenesisweb.onrender.com/api/clientes
+
+
+# private URL to trigger a deploy
+https://api.render.com/deploy/srv-cq6ce7qju9rs73e4ile0?key=MMn0Uu3U6rI
+
