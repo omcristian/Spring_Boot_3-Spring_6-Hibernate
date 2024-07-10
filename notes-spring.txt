@@ -133,9 +133,13 @@ error: failed to solve: lstat /home/user/.local/tmp/buildkit-mount1882155463/tar
 --
 
 # Deployed URL, API
-https://ingenesisweb.onrender.com/api/clientes
+dev: https://ingenesisweb-dev.onrender.com/api/clientes
+qa: https://ingenesisweb-qa.onrender.com/api/clientes
+PROD: https://ingenesisweb.onrender.com/api/clientes
 
 
 # private URL to trigger a deploy
 https://api.render.com/deploy/srv-cq6ce7qju9rs73e4ile0?key=MMn0Uu3U6rI
+
+
 
