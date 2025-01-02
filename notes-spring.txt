@@ -1,3 +1,11 @@
+________________________
+
+Front: https://perficient.udemy.com/course/react-the-complete-guide-incl-redux/?src=sac&kw=React+complete+guide
+
+Axios: Fetch data from API
+
+________________________
+
 https://perficient.udemy.com/course/spring-hibernate-tutorial/learn/lecture/36829930#overview
 
 
@@ -157,8 +165,8 @@ error: failed to solve: lstat /home/user/.local/tmp/buildkit-mount1882155463/tar
 --
 
 # Deployed URL, API
-dev: https://ingenesisweb-dev.onrender.com/api/clientes
-qa: https://ingenesisweb-qa.onrender.com/api/clientes
+dev	: https://ingenesisweb-dev.onrender.com/api/clientes
+qa	: https://ingenesisweb-qa.onrender.com/api/clientes
 PROD: https://ingenesisweb.onrender.com/api/clientes
 
 
@@ -167,4 +175,4 @@ https://api.render.com/deploy/srv-cq6ce7qju9rs73e4ile0?key=KYBko3v3qWI
 
 
 
-next: 132
+next: 134
